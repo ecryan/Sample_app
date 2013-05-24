@@ -98,9 +98,6 @@ describe User do
  		it { should_not == user_for_invalid_passowrd}
  		specify { user_for_invalid_passowrd.should be_false}
  	end
-
-
-
  end
 
 
